@@ -15,13 +15,6 @@ body {
     margin: 0;
 }
 
-header {
-    padding: 1rem;
-    display: flex;
-    justify-content: flex-end;
-    background-color: var(--secondary-color);
-}
-
 .search {
     background-color: transparent;
     border: 2px solid var(--primary-color);
@@ -44,11 +37,6 @@ header {
 form .btn {
     background-image: linear-gradient(to top, #8163ea, #ca5efe);
     border-color: #8163ea;
-}
-
-main {
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .flexContainer {
@@ -146,7 +134,15 @@ main {
     /* Center the form on small screens */
     .form-container {
         justify-content: center !important;
-        margin-top: 15px;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+    }
+    .form-inline .form-control {
+        width: 100%;
+        margin-bottom: 10px; /* Space between input and button */
+    }
+    .form-inline .btn {
+        width: 100%; /* Button width matches input width */
     }
 }
 
