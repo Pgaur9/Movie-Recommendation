@@ -12,3 +12,6 @@ The interface uses Bootstrap cards to display each movie result. Each card promi
 The interface is responsive and adapts to different screen sizes. On a desktop monitor, the interface displays five cards per row, scaling down to one card per row on a mobile screen.
 
 **Deployed Github Page:** https://pgaur9.github.io/Movie-Recommendation/
+
+
+<img width="1664" alt="Eagle Movies Database (EMDB)" src="https://github.com/Pgaur9/Movie-Recommendation/assets/172554307/e0d0fffe-747e-43dc-88d3-dffd7b36908b">
